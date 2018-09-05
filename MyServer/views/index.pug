@@ -1,0 +1,24 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+
+  a(href="/createExercise") Create Exercise
+  form(action="/exercises/delete" method="post")
+    button Create new workout program
+
+  table(border='1')
+      thead
+        tr
+          th Exercise
+          th Description
+          th Set
+          th RepsTime
+      tbody
+        each exercise in exercises
+          tr
+            td= exercise.Exercise
+            td= exercise.Description
+            td= exercise.Set
+            td= exercise.RepsTime

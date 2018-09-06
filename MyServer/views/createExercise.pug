@@ -9,15 +9,23 @@ block content
         // register form
         form(method='POST' action='/exercises')
           div.form-group
-            label(for='Exercise') Exercise:
-            input#name.form-control(type='text', placeholder='first and last' name='Exercise')
+            label(for='Exercise') Exercise: 
+            br
+            input#name.form-control(type='text', placeholder='Exercise name' name='Name')
+          br
           div.form-group
             label(for='Description') Description:
-            input#name.form-control(type='text', placeholder='first and last' name='Description')
+            br
+            input#name.form-control(type='text', placeholder='Short to do description' name='Description')
+          br
           div.form-group
             label(for='Set') Set:
-            input#name.form-control(type='text', placeholder='first and last' name='Set')
+            br
+            input#name.form-control(type='text', placeholder='How many sets?' name='Set')
+          br
           div.form-group
             label(for='RepsTime') RepsTime:
-            input#name.form-control(type='text', placeholder='first and last' name='RepsTime')
-          button.btn.btn-primary(type='submit') Sign up
+            br
+            input#name.form-control(type='text', placeholder='How many Reps/Time?' name='RepsTime')
+          br
+          input(type="submit", value="Sign up")

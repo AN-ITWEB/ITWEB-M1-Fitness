@@ -1,3 +1,3 @@
-module.exports.createExercise = function (req, res) {
+module.exports.createExercise = (req, res) => {
     res.render('createExercise', {});
 };

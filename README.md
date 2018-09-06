@@ -1,5 +1,10 @@
 
 # Fitness – a Web App with Node, Express and Mongo
+
+## How to access
+https://itweb-m1-fitness.herokuapp.com/
+
+## Assignment
 #### Purpose:
 To demonstrate fulfilment of the learning objectives:
 - Explain the principles for using a MVC framework in a web server
@@ -14,7 +19,7 @@ beneath. A workout program is a collection of exercises (workouts) that each hav
 number of sets and number of repetitions or time.
 
 Basic functionality:
-- [ ] The user can create a new workout program
+- [x] The user can create a new workout program
 - [x] The user can add new exercises to a workout program
 - [x] An exercise has a name, a description, number of sets and number of repetitions or the time it
 should last.

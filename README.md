@@ -4,6 +4,10 @@
 ## How to access
 https://itweb-m1-fitness.herokuapp.com/
 
+## Inserting dummy data
+This path will insert dummy data into the table.
+https://itweb-m1-fitness.herokuapp.com/dummy
+
 ## Assignment
 #### Purpose:
 To demonstrate fulfilment of the learning objectives:
